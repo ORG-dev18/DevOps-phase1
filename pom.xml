@@ -12,9 +12,13 @@
 		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
 	</properties>
 	<scm>
-		<url>https://github.com/venkatasykam/DevOpsWebApp.git</url>
+		<!--<url>https://github.com/venkatasykam/DevOpsWebApp.git</url>
 		<connection>scm:git:https://github.com/venkatasykam/DevOpsWebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/venkatasykam/DevOpsWebApp.git</developerConnection>
+		<tag>master-WebApp-1.0.0-RC-4</tag>-->
+		<url>https://github.com/ORG-dev18/DevOps-phase1.git</url>
+		<connection>scm:git:https://github.com/ORG-dev18/DevOps-phase1.git</connection>
+		<developerConnection>scm:git:https://github.com/ORG-dev18/DevOps-phase1.git</developerConnection>
 		<tag>master-WebApp-1.0.0-RC-4</tag>
 	</scm>
 	<dependencies>
@@ -93,7 +97,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>libs-release</name>
-			<url>http://18.218.88.137:8081/nexus/content/artifactory/libs-release</url>
+			<url>http://13.127.235.71:8081/nexus/content/artifactory/libs-release</url>
 		</repository>
 	</repositories>
 	-->
@@ -101,12 +105,12 @@
 		<repository>
 			<id>deployment</id>
 			<name>Nexus Release Repository</name>
-			<url>http://35.173.178.21:8081/nexus/content/repositories/releases/</url>
+			<url>http://13.127.235.71:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>http://35.173.178.21:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://13.127.235.71:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<profiles>
